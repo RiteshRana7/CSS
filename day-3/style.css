@@ -5,10 +5,7 @@ h1{
   
     text-align:center;
     color:blueviolet;
-    position: sticky;
-    top:0;
-    background-color: yellow;
-    
+   
 
 }
 #a{
@@ -19,4 +16,9 @@ p{
 }
 c{
     display: inline;
+}
+.d{
+    background-color: yellow;
+    height: 100px;
+    width: 100%;
 }
