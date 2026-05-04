@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+SAS:wght@100..400&display=swap');
+
+
+h1{
+  
+    text-align:center;
+    color:blueviolet;
+    position: sticky;
+    top:0;
+    background-color: yellow;
+    
+
+}
+#a{
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+      font-family: "Playwrite DE SAS", cursive;
+}
+c{
+    display: inline;
+}
