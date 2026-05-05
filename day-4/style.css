@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing:border-box;
+}
+.first{
+    width:250px;
+    height:350px;
+    background-color:beige;
+    padding: 15px;
+}
+.second{
+    background-color:brown;
+    width:150px;
+    height:200px;
+}
+.third{
+    background-color: green;
+    width:150px;
+    height:170px;
+}

@@ -16,7 +16,12 @@
 }
 p{
     width:40%;
-    padding-top: 7px;
+    padding-top: 7px;.
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
 }
 .para{
     width:100%;
