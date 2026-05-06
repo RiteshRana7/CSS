@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+SAS:wght@100..400&display=swap');
 
-
+*{
+    padding: 0;
+    margin: 0;
+}
 h1{
   
     text-align:center;
     color:blueviolet;
+    padding: 30px;
    
 
 }
@@ -21,4 +25,7 @@ c{
     background-color: yellow;
     height: 100px;
     width: 100%;
+}
+.icon{
+    float:right;
 }
