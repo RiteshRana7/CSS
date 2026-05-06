@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    width:100%;
+    height:100vh;
+
+}
+.section-1{
+    width:100%;
+    height:100%;
+    background-image: url(./image1.jpeg);
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+}
+.section-2{
+    width:100%;
+    height: 100%;
+    background-image: url(./image2.jpeg);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.section-3{
+    width:100%;
+    height:100%;
+    background-image: url(./image3.jpeg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+}
