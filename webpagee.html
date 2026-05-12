@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Own Home</title>
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body{
+      background: #fff;
+    }
+
+    /* Navbar */
+    .navbar{
+      width: 100%;
+      height: 70px;
+      background: #f5f5f5;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 40px;
+      border-bottom: 1px solid #ddd;
+    }
+
+    .logo{
+      font-size: 22px;
+      font-weight: bold;
+      color: #333;
+    }
+
+    .nav-links{
+      display: flex;
+      gap: 30px;
+      list-style: none;
+    }
+
+    .nav-links li a{
+      text-decoration: none;
+      color: #555;
+      font-size: 15px;
+      transition: 0.3s;
+    }
+
+    .nav-links li a:hover{
+      color: #000;
+    }
+
+    .profile img{
+      width: 45px;
+      height: 45px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+    /* Hero Section */
+    .hero{
+      background: #eee;
+      padding: 70px 80px;
+    }
+
+    .hero h1{
+      font-size: 70px;
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    .hero p{
+      width: 70%;
+      font-size: 26px;
+      color: #444;
+      line-height: 1.5;
+      margin-bottom: 30px;
+    }
+
+    .btn{
+      padding: 15px 28px;
+      background: #3498db;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 18px;
+      cursor: pointer;
+    }
+
+    .btn:hover{
+      background: #2980b9;
+    }
+
+    /* Cards Section */
+    .cards{
+      width: 90%;
+      margin: 60px auto;
+      display: flex;
+      justify-content: space-between;
+      gap: 30px;
+    }
+
+    .card{
+      width: 32%;
+    }
+
+    .card i{
+      font-size: 40px;
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    .card h2{
+      font-size: 40px;
+      margin-bottom: 15px;
+      color: #333;
+    }
+
+    .card p{
+      color: #555;
+      line-height: 1.7;
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+
+    .card button{
+      padding: 12px 20px;
+      border: 1px solid #bbb;
+      background: white;
+      cursor: pointer;
+      border-radius: 4px;
+      font-size: 16px;
+    }
+
+    .card button:hover{
+      background: #f2f2f2;
+    }
+
+    hr{
+      width: 90%;
+      margin: auto;
+      border: 1px solid #eee;
+    }
+
+    footer{
+      width: 90%;
+      margin: 30px auto;
+      color: #666;
+      font-size: 15px;
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">MY OWN HOME</div>
+
+    <ul class="nav-links">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Suppliers</a></li>
+      <li><a href="#">Products</a></li>
+      <li><a href="#">Categories</a></li>
+      <li><a href="#">Membership</a></li>
+      <li><a href="#">Site Content</a></li>
+    </ul>
+
+    <div class="profile">
+      <img src="https://i.pravatar.cc/100" alt="profile">
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1><i class="fa-solid fa-earth-americas"></i> Hello, world!</h1>
+
+    <p>
+      This is a template for a simple buy page. It includes a large
+      callout called a jumbotron and three supporting items to purchase.
+      Use it as a starting point to create something more unique.
+    </p>
+
+    <button class="btn">Learn more »</button>
+  </section>
+
+  <!-- Cards -->
+  <section class="cards">
+
+    <div class="card">
+      <i class="fa-solid fa-crosshairs"></i>
+      <h2>Heading</h2>
+      <p>
+        Donec id elit non mi porta gravida at eget metus.
+        Fusce dapibus, tellus ac cursus commodo.
+      </p>
+
+      <button>View details »</button>
+    </div>
+
+    <div class="card">
+      <i class="fa-solid fa-gift"></i>
+      <h2>Heading</h2>
+      <p>
+        Donec id elit non mi porta gravida at eget metus.
+        Fusce dapibus, tellus ac cursus commodo.
+      </p>
+
+      <button>View details »</button>
+    </div>
+
+    <div class="card">
+      <i class="fa-solid fa-calendar"></i>
+      <h2>Heading</h2>
+      <p>
+        Donec sed odio dui. Cras justo odio,
+        dapibus ac facilisis in egestas eget.
+      </p>
+
+      <button>View details »</button>
+    </div>
+
+  </section>
+
+  <hr>
+
+  <footer>
+    © 2018 MyCompany. All rights reserved.
+  </footer>
+
+</body>
+</html>

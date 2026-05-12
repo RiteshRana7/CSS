@@ -1,0 +1,44 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    width:100%;
+    height:100vh;
+}
+h1{
+    background-color:aqua;
+}
+h2{
+    background-color:yellow;
+    display:inline;
+}
+.box{
+    background-color:saddlebrown;
+}
+
+.box1{
+    display:block;
+    background-color: blue;
+}
+.box2{
+    height:120px;
+    width: 120px;
+    display:inline-block;
+    background-color: darkorange;
+}
+.container{
+    display:flex;
+    justify-content:space-around;
+}
+.b1{
+    background:linear-gradient(to right, blue,pink,orange,yellow);
+}
+.a{
+    display:flex;
+    justify-content:space-between;
+}
+.a1{
+    baclground-color:aqua;
+}
