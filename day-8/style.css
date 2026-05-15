@@ -18,10 +18,11 @@ nav{
     align-items:center;
       color:white;
     justify-content:space-between;
+   
 }
 .nav-menu{
     align-items:center;
-    gap:10px;
+    gap:20px;
     display: flex; 
 }
 .nav-profile-name{
@@ -45,7 +46,7 @@ nav{
     height:330px;
     width:170px;
    background-color: white;
-     margin-left:100px;
+     margin-left:70px;
     margin-top:25px; 
     border-radius:8px;
     padding:8px;
@@ -66,14 +67,16 @@ nav{
     display: flex;
 }
 .main-box{
-    width:600px;
-    height:10cm;
+    width:650px;
+    height:400px;
     background-color: white;
     margin-top: 25px;
     margin-left: 30px;
     border-radius:8px;
+    padding:10px;
     display:flex;
-    justify-content: space-between;
+    flex-direction: column;
+    gap:20px;
 }
 main{
     display: flex;
@@ -106,6 +109,91 @@ main{
     width: 55px;
     border-radius: 50%;
 }
+.right-all-seller-box{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:10px;
+}
+.right-seller-detials-boxx img{
+    height: 40px;
+    width:40px;
+    border-radius: 50%;
+}
+.right-seller-detials-boxx{
+    display: flex;
+}
+.right-seller-detials-boxx div h3{
+    font-size: 14px;
+    color:rgb(107, 106, 106)
+}
+.right-seller-detials-boxx div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
-
-
+.botam-images img{
+    height: 80px;
+    padding: 10px;
+}
+.botam-all-image{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.image-paragraph p{
+    font-size: 10px;
+    color:rgb(131, 129, 129);
+}
+.image-paragraph{
+    display: flex;
+     flex-direction:column;
+    justify-content: center; 
+}
+.botam-images{
+    display: flex;
+    gap: 10px;
+}
+.ahmad{
+    color:#27528e;
+}
+.section-main-box{
+    width:65%;
+    height:280px;
+    background-color: white;
+    margin-top: 15px;
+    margin-left:265px;
+    border-radius: 7px;
+    
+}
+.input-type{
+    width:550px;
+    margin-top:10px;
+    margin-left:16px;
+    border-radius:8px;
+    height:25px;
+}
+.button{
+    background-color:#1565d8;
+    width:70px;
+    height: 26px;
+    border-radius: 7px;
+    color:white;
+}
+.last-page-img img {
+    padding-top: 20px;
+    padding-left:10px;
+    height: 120px;
+}
+.last-paragraph{
+    padding-left:10px;
+    color: rgb(152, 151, 151);
+    font-size: 15px;
+}
+.main-head-for-last-box{
+    display: flex;
+    gap:18px;
+    margin-left: 13px;
+}
+.right-seller-detials-boxx p{
+    color:rgb(113, 110, 110);
+}
