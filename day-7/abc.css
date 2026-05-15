@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:boder-box;
+}
+body{
+    height:100vh;
+    width:100%;
+}
+h1{
+    font-size:20px;
+}
+.navbar{
+    height:30px;
+    padding:10px;
+    display:flex;
+    background-color:#1565d8;
+    justify-content:space-between;
+    align-items:center;
+    color:white;
+}
+.division{
+    text-decoration:none;
+    display:flex;
+    justify-content:space-around;
+    gap: 10px;
+   
+}
+.image{
+    height:20px;
+    width:20px;
+    margin-right:10px;
+    border-radius:15px;
+}
+span{
+      margin-left:30px;
+}
+.chart{
+    height:300px;
+    width:200px;
+    background-color: aqua;
+    margin-left:80px;
+    margin-top:25px;
+    list-style-type:none;
+}
+li{
+    margin-left:10px;
+}
