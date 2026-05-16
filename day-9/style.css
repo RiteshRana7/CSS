@@ -10,3 +10,15 @@ body{
 div > p{
     color:rgb(216, 133, 24);
 }
+div::first-letter{
+    font-size:40px;
+    color:rgb(53, 53, 161);
+}
+p::first-line{
+    background-color:aqua;
+}
+span::selection{
+    background-color:yellow;
+    color:color:azure;
+    font-size:40px;
+}
