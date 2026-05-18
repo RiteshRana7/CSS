@@ -228,8 +228,8 @@ main{
 
 .main-head-for-last-box{
     display: flex;
-    gap:25px;
-    margin-left: 50px;
+    gap:8%;
+    margin-left:16px;
 }
 
 img{
