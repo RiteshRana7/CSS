@@ -4,196 +4,234 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 body{
     height: 100vh;
     width:100%;
     background-color: antiquewhite;
-
 }
+
 nav{
-    width:100%;
+     width:100%;
     height:40px;
     background-color:#1565d8;
     display: flex;
     align-items:center;
       color:white;
     justify-content:space-between;
-   
 }
+
 .nav-menu{
     align-items:center;
     gap:20px;
     display: flex; 
 }
+
 .nav-profile-name{
     align-items: center;
     font-weight: 600;
 }
+
 .nav-profile-image{
     height:30px;
     width:30px;
     border-radius:50%;
     margin-right:15px;
 }
+
 .nav-menubar{
     color:white;
     text-decoration:none;
     padding-right:10px;
     font-size:15px;
 }
-.main-head{
-    display: inline-block;
-    height:330px;
-    width:17%;
-   background-color: white;
-     margin-left:70px;
-    margin-top:25px; 
-    border-radius:8px;
-    padding:8px;
-   line-height: 30px;
-   font-size: 15px;
-}
-.main-head-footer{
-    font-size:7px;
-    display: flex;
-     align-items:end;
-     height: 50%;
-    line-height: 10px;
-    color: rgb(185, 184, 184);
-}
+
 .store{
-    
     padding: 10px;
     display: flex;
 }
+
+main{
+    display:flex;
+    gap:20px;
+    width:100%;
+    padding:0 20px;
+}
+
+.main-head{
+    display: inline-block;
+    height:330px;
+    width:22%;
+    background-color: white;
+    margin-top:25px;
+    border-radius:8px;
+    padding:8px;
+    line-height: 30px;
+    font-size: 15px;
+}
+
+.main-head-footer{
+    font-size:7px;
+    display: flex;
+    align-items:end;
+    height: 50%;
+    line-height: 10px;
+    color: rgb(185, 184, 184);
+}
+
 .main-box{
-    width:65%;
-    height:400px;
+    width:73%;
+    min-height:400px;
     background-color: white;
     margin-top: 25px;
-    margin-left: 30px;
     border-radius:8px;
     padding:10px;
     display:flex;
     flex-direction: column;
     gap:20px;
 }
-main{
-    display: flex;
-}
+
 .seller-nav-row-box{
-    display: flex;
-    gap: 415px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
     padding: 3px;
     padding-top: 8px;
     font-size: 15px;
 }
+
 .top-seller{
     color:rgb(73, 73, 234);
     font-weight: 600;
 }
+
 .top-seller i{
     color:orange;
     font-size:20px;
 }
+
 .filter-by{
     color:rgb(135, 133, 133);
 }
+
 .seller-all-details-box{
     display: grid;
     grid-template-columns: repeat(4,1fr);
     gap:8px;
 }
+
 .right-seller-detials-box img{
     height:55px;
     width: 55px;
     border-radius: 50%;
 }
+
 .right-all-seller-box{
     display: grid;
     grid-template-columns: repeat(4,1fr);
     gap:10px;
 }
+
 .right-seller-detials-boxx img{
     height: 40px;
     width:40px;
     border-radius: 50%;
 }
+
 .right-seller-detials-boxx{
     display: flex;
 }
+
 .right-seller-detials-boxx div h3{
     font-size: 14px;
     color:rgb(107, 106, 106)
 }
+
 .right-seller-detials-boxx div{
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
+.right-seller-detials-boxx p{
+    color:rgb(113, 110, 110);
+}
+
 .botam-images img{
     height: 80px;
     padding: 10px;
 }
+
 .botam-all-image{
     display: grid;
     grid-template-columns: repeat(2,1fr);
 }
+
+.image-paragraph{
+    display: flex;
+    flex-direction:column;
+    justify-content: center; 
+}
+
 .image-paragraph p{
     font-size: 10px;
     color:rgb(131, 129, 129);
 }
-.image-paragraph{
-    display: flex;
-     flex-direction:column;
-    justify-content: center; 
-}
+
 .botam-images{
     display: flex;
     gap: 10px;
 }
+
 .ahmad{
     color:#27528e;
 }
+
 .section-main-box{
-    width:65%;
-    height:280px;
+    width:70%;
+    min-height:280px;
     background-color: white;
     margin-top: 15px;
-    margin-left:265px;
+    margin-left:25%;
+    margin-right:20px;
     border-radius: 7px;
-    
+    padding-bottom:20px;
 }
+
 .input-type{
-    width:550px;
+    width:80%;
     margin-top:10px;
     margin-left:16px;
     border-radius:8px;
     height:25px;
 }
+
 .button{
     background-color:#1565d8;
-    width:70px;
+    width:11%;
     height: 26px;
     border-radius: 7px;
     color:white;
 }
-.last-page-img img {
+
+.last-page-img img{
     padding-top: 20px;
     padding-left:10px;
     height: 120px;
 }
+
 .last-paragraph{
     padding-left:10px;
     color: rgb(152, 151, 151);
     font-size: 15px;
 }
+
 .main-head-for-last-box{
     display: flex;
-    gap:18px;
-    margin-left: 13px;
+    gap:25px;
+    margin-left: 50px;
 }
-.right-seller-detials-boxx p{
-    color:rgb(113, 110, 110);
+
+img{
+    max-width:100%;
 }
