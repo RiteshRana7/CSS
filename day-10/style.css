@@ -8,6 +8,9 @@ body{
     height:100vh;
     background-color:rgb(215, 209, 209);
 }
+.right-box{
+padding: 10px;
+}
 main{
     height:90%;
     width:92%;
@@ -37,20 +40,63 @@ main{
 .nav-search-bar input{
     height:25px;
     width:250px;
-    margin: 10px;
-
 }
 .nav-profile-bar img{
-    height:40px;
-    width:40px;
+    height:30px;
+    width:30px;
     border-radius:50%;
+    margin-right: 10px;
     /* margin-left:310px ; */
     
 }
-.nav-profile-bar{
-      
+.nav-profile-bar {
+    display: flex;
 }
+.nav-profile-bar i{
+    gap: 10px;
+    margin-top: 3px;
+    margin-right:5px ;
+}
+
+
+.nav-profile-bar div{
+    display: flex;
+    flex-direction: column;
+    font-size:12px;
+}
+.profile-name{
+    font-size: 9px;
+    color: rgb(167, 165, 165);
+}
+
+
 nav{
     display: flex;
-    align-content: space-between;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 7px;
+}
+.welcome-bar p{
+  
+    font-size: 10px;
+}
+.welcome-bar{
+      padding-top: 7px;
+}
+.right-first-box{
+    display: flex;
+    flex-direction:column;
+}
+.leave-box{
+   background-color: aquamarine;
+   display: flex;
+   flex-direction: column;
+   width:150px;
+}
+.left-timing-box-bar{
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    /* gap: 2px; */
+    /* column-gap: 2px; */
+    row-gap:10px;
 }
