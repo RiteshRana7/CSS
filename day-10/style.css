@@ -97,6 +97,21 @@ nav{
     display: grid;
     grid-template-columns:repeat(2,1fr);
     /* gap: 2px; */
-    /* column-gap: 2px; */
+    column-gap: 50px;
     row-gap:10px;
+}
+.timing-box{
+    display: flex;
+    gap: 90px;
+}
+.today-stutas{
+    width:30%;
+    height: 80%;
+    background-color: white;
+   display: flex;
+   flex-direction:column;
+}
+.display-flex{
+    display: flex;
+    
 }
