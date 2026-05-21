@@ -1,11 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 *{
     margin:0;
     padding:0;
     box-sizing:border-box;
+    font-family: "PT Sans", sans-serif;
 }
 body{
     width:100%;
     height:100vh;
+}
+.bg-white{
+    background-color: white;
+}
+.bg-gray{
+    background-color: rgb(205, 198, 198);
 }
 .text-bold{
     font-weight:bold;
@@ -15,6 +23,9 @@ body{
 }
 .d-flex{
     display:flex;
+}
+.flex-col{
+    flex-direction: column;
 }
 .justify-center{
     justify-content:center;
@@ -36,4 +47,54 @@ body{
 }
 .items-end{
     align-items:end;
+}
+.left-section{
+    width: 19%;
+}
+.logo-name{
+    gap:10px;
+    margin-bottom:16px;
+    height: 70px;
+}
+.logo-name h2{
+    font-weight:normal;
+    font-size: 18px;
+}
+.logo-name i{
+    color:white;
+    background-color:#1371ee;
+    padding: 6px;
+    border-radius: 6px;
+
+}
+.side-menu-box,
+.side-bottam-menu-box{
+    width:100%;
+}
+.side-menu-box div,
+.side-bottam-menu-box div{
+    padding: 7px 20px;
+    display: flex;
+    gap: 10px;
+    margin: 10px 15px;
+    border-radius: 8px;
+    font-weight: 500;
+    color:rgb(56, 55, 55);
+}
+.side-menu-box div:first-child{
+    background-color: rgb(201, 227, 250);
+    color: #1371ee;
+}
+.side-menu-box div i{
+    font-size:20px;
+}
+.color-red{
+    color:#ff0000;
+}
+.hr{
+    margin:10px;
+   height:0.5px;
+   width:80%;
+   background-color: rgb(150, 146, 146);
+   margin-top: 20px 0px;
 }
