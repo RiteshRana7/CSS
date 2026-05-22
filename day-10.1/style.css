@@ -98,3 +98,91 @@ body{
    background-color: rgb(150, 146, 146);
    margin-top: 20px 0px;
 }
+nav{
+    width:100%;
+    height:60px;
+    display:flex;
+    justify-content:space-between;
+}
+.right-section{
+    width:80%;
+    padding-left:10px;
+
+}
+.nav-profile-bar img{
+    width:40px;
+    height:40px;
+    border-radius:50%;
+}
+.nav-bar-profile-image{
+    display:flex;
+    flex-direction:column;
+    font-size:12px;
+    gap:1px;
+}
+.nav-profile-bar{
+    gap:4px;
+}
+.nav-search-bar input{
+    width:250px;
+    height:25px;
+    margin:10px 5px;
+    border:none;
+}
+.welcome-box p{
+    font-size:14px;
+    color:rgb(113, 110, 110)
+}
+.timing-box{
+    display:flex;
+    width:90%;
+    height:50%;
+    background-color:rgb(249, 243, 243);
+    justify-content:space-around;
+}
+.leave-summary{
+    width: 100%;
+}
+.leave-grid{
+    background-color: aliceblue;
+    display:grid;
+    gap: 18px;
+    grid-template-columns: repeat(2,1fr);
+    width:75%;
+}
+.leave-summary-text{
+    display:flex;
+    flex-direction:column;
+    font-size:12px;
+}
+
+.leave-grid > div{
+    background-color: #ff0000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.leave-grid div >div{
+    display: flex;
+    align-items: center;
+}
+.today-status{
+    width:50%;
+    flex-direction: column;
+    background-color: ;
+}
+.today-status > div{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    margin-top:15px;
+}
+button{
+    background-color: blue;
+    color: white;
+    border-radius: 6px;
+    height:25px;
+    margin-top:25px;
+    width: 100px;
+}
