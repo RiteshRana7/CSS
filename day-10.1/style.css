@@ -107,8 +107,11 @@ body{
 .side-menu-box div i{
     font-size:13px;
 }
-.color-red{
+.color-red-span{
     color:#ff0000;
+}
+.color-red-box i {
+color: #ff0000;
 }
 .hr{
     margin:10px;
@@ -231,9 +234,10 @@ nav{
     margin-top:15px;
     font-size: 13px;
 }
-/* .today-status > div > i:nth-child(1) {
-    background-color:lightgreen;
-} */
+.today-status > div > i:nth-child(1) {
+    background-color:rgb(174, 234, 174);
+    padding: 5px;
+}
 button{
     background-color: #1371ee;
     border:none;
@@ -320,4 +324,7 @@ button:hover{
 .quick-action .box-7:hover{
     transform: scale(1.1,1.1);
     transition: 3s;
+}
+.color-red-box i {
+color: #ff0000;
 }
