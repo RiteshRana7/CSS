@@ -9,7 +9,9 @@ body{
     width:100%;
     height:100vh;
 }
-
+.gray-color{
+    color: rgb(175, 170, 170);
+}
 .leave-grid > div:nth-child(1){
     background-color:#dff4ff;
     border-radius: 5px;
@@ -86,8 +88,9 @@ body{
 }
 .side-menu-box,
 .side-bottam-menu-box{
-    width:100%;
-    font-size: 12px;
+    width:78%;
+    font-size: 50px;
+    line-height: 30px;
 }
 .side-menu-box div,
 .side-bottam-menu-box div{
@@ -156,7 +159,7 @@ nav{
     border-radius: 4px;
 }
 .nav-search-bar input{
-    width:250px;
+    width:400px;
     height:25px;
     margin:10px 5px;
     border:none;
@@ -167,15 +170,16 @@ nav{
 }
 .welcome-box{
     margin: 18px 15px;
+    font-size: 18px;
 }
 .timing-box{
     display:flex;
     width:98%;
-    height:70%;
+    height:50vh;
     justify-content:space-around;
 }
 .leave-summary{
-    width: 85%;
+    width: 95%;
     background-color: #FFFFFF;
     margin-right: 20px;
     border-radius:8px;
@@ -184,23 +188,66 @@ nav{
 .leave-grid{
     
     display:grid;
-    gap: 25px;
+    gap: 40px;
     grid-template-columns: repeat(2,1fr);
     width:95%;
-    padding: 15px 15px;
+    padding: 20px 25px;
     overflow: hidden;
     padding: 10px;
     
 }
 .leave-summary-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    font-size:15px;
+    gap: 3px;
+}
+.leave-summary-text p{
+    width: 100%;
+    text-align: start;
+}
+.anual-leave-icon{
+    display: flex;
+    width: 100%;
+    gap: 6px;
+}
+.anual-leave-icon i{
+    width:40px;
+    height:40px;
     display:flex;
-    flex-direction:column;
-    font-size:12px;
-    
+    justify-content:center;
+    align-items:center;
+    border-radius:10px;
+    font-size:18px;
+}
+.leave-grid > div:nth-child(1) i{
+background:#D8EBFA;
+color:#70a9ee;
+}
+
+.leave-grid > div:nth-child(2) i{
+background:#FFF0C9;
+color:#dab36b;
+}
+
+.leave-grid > div:nth-child(3) i{
+background:#D9F7E8;
+color:#61dfa2;
+}
+
+.leave-grid > div:nth-child(4) i{
+background:#FFDCDC;
+color:#e58289;
+}
+.leave-grid > div > .ri-more-2-line{
+    background:none !important;
+    color:black !important;
+    padding:0 !important;
 }
 
 .leave-grid > div{
-    background-color: #ff0000;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -212,18 +259,22 @@ nav{
     align-items: center;
 }
 .today-status{
-    width:50%;
+    width:40%;
     flex-direction: column;
     background-color: #FFFFFF;
      padding: 11px 15px;
+     font-size:35px;
      border-radius: 8px;
 }
+.font{
+    font-size:18px;
+}
 .leave-summary-name{
-    font-size: 16px;
+    font-size: 19px;
     margin-left:20px;;
 }
 .today-status-name{
-    font-size: 16px;
+    font-size: 19px;
     font-weight: bold;
     margin-left: 5px;
 }
@@ -234,19 +285,37 @@ nav{
     margin-top:15px;
     font-size: 13px;
 }
-.today-status > div > i:nth-child(1) {
+/* .today-status > div > i:nth-child(1) {
     background-color:rgb(174, 234, 174);
     padding: 5px;
+} */
+ .today-status > div:nth-child(2) i{
+background:#DCFCE7;
+color:#22C55E;
+padding: 10px;
+}
+
+.today-status > div:nth-child(3) i{
+background:#DBEAFE;
+color:#3B82F6;
+padding: 10px;
+}
+
+.today-status > div:nth-child(4) i{
+background:#FEF3C7;
+color:#F59E0B;
+padding: 10px;
 }
 button{
     background-color: #1371ee;
     border:none;
     color: white;
     border-radius: 6px;
-    height:35px;
+    height:45px;
     margin-top:20px;
-    width: 26%;
-     margin:5px 15px;
+    font-size: 20px;
+    width: 20%;
+     margin:25px 15px;
      transition: 2s;
 }
 button:hover{
@@ -293,7 +362,7 @@ color: #ff0000;
 }
 
 .quick-action h2{
-    font-size:16px;
+    font-size:19px;
     margin-bottom:15px;
     color:#222;
 }
@@ -301,14 +370,16 @@ color: #ff0000;
 .quick-action-boxes{
     display:flex;
     gap:20px;
+    font-size: 22px;
 }
 
 .box-5{
     flex:1;
     display:flex;
     align-items:center;
-    gap:15px;
-    padding:18px;
+    gap:25px;
+    font-size: 22px;
+    padding:10px;
     border-radius:8px;
 }
 
@@ -323,8 +394,8 @@ color: #ff0000;
 }
 
 .box-5 div p:first-child{
-    font-size:15px;
-    font-weight:600;
+    font-size:14px;
+    font-weight:500;
     color:#222;
 }
 
@@ -359,3 +430,5 @@ background:#fff9eb;
 background:#fff0c9;
 color:#d9971d;
 }
+/* leave summar icon start */
+
