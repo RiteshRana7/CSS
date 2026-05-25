@@ -255,38 +255,7 @@ button:hover{
     transform:scale(1.1,1.1);
     
 }
-.quick-action{
-    display: flex;
-    justify-content:space-around;
-    width: 96%;
-    background-color: #FFFFFF;
-    margin-top:10px;
-    border-radius: 8px;
-    padding: 8px;
-    align-items: center;
-    margin-left: 13px;
-    overflow: hidden;
-    
-}
-.quick-action > div{
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    margin-top: 20px;
-    padding: 9px;
-    border-radius: 8px;
-    width:30%;
-}
-.quick-action > div:nth-child(1){
-    background-color: #E3F2FD;
 
-}
-.quick-action >div:nth-child(2){
-    background-color: #FFF3E0;
-}
-.quick-action > div:nth-child(3){
-    background-color:#E8F5E9 ;
-}
 /* Animations for buttons */
 .side-menu-box div:hover{
     background-color: #1371ee;
@@ -313,18 +282,80 @@ button:hover{
     transform:scale(1.1,1.1);
     transition: 3s;
 }
-.quick-action .box-5:hover{
-    transform: scale(1.1,1.1);
-    transition: 3s;
-}
-.quick-action .box-6:hover{
-    transform: scale(1.1,1.1);
-    transition: 3s;
-}
-.quick-action .box-7:hover{
-    transform: scale(1.1,1.1);
-    transition: 3s;
-}
 .color-red-box i {
 color: #ff0000;
+}
+.quick-action{
+    background:white;
+    margin:15px;
+    border-radius:10px;
+    padding:18px;
+}
+
+.quick-action h2{
+    font-size:16px;
+    margin-bottom:15px;
+    color:#222;
+}
+
+.quick-action-boxes{
+    display:flex;
+    gap:20px;
+}
+
+.box-5{
+    flex:1;
+    display:flex;
+    align-items:center;
+    gap:15px;
+    padding:18px;
+    border-radius:8px;
+}
+
+.box-5 i{
+    width:40px;
+    height:40px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-radius:8px;
+    font-size:18px;
+}
+
+.box-5 div p:first-child{
+    font-size:15px;
+    font-weight:600;
+    color:#222;
+}
+
+.box-5 div p:last-child{
+    font-size:13px;
+    color:#777;
+}
+
+.blue{
+background:#edf6fd;
+}
+
+.blue i{
+background:#d8ebfa;
+color:#2d8cff;
+}
+
+.green{
+background:#eefcf5;
+}
+
+.green i{
+background:#d9f7e8;
+color:#1db56c;
+}
+
+.yellow{
+background:#fff9eb;
+}
+
+.yellow i{
+background:#fff0c9;
+color:#d9971d;
 }
