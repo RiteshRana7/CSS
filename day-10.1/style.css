@@ -234,9 +234,26 @@ nav{
     margin-top:15px;
     font-size: 13px;
 }
-.today-status > div > i:nth-child(1) {
+/* .today-status > div > i:nth-child(1) {
     background-color:rgb(174, 234, 174);
     padding: 5px;
+} */
+ .today-status > div:nth-child(2) i{
+background:#DCFCE7;
+color:#22C55E;
+padding: 6px;
+}
+
+.today-status > div:nth-child(3) i{
+background:#DBEAFE;
+color:#3B82F6;
+padding: 6px;
+}
+
+.today-status > div:nth-child(4) i{
+background:#FEF3C7;
+color:#F59E0B;
+padding: 6px;
 }
 button{
     background-color: #1371ee;
@@ -308,7 +325,7 @@ color: #ff0000;
     display:flex;
     align-items:center;
     gap:15px;
-    padding:18px;
+    padding:10px;
     border-radius:8px;
 }
 
@@ -323,8 +340,8 @@ color: #ff0000;
 }
 
 .box-5 div p:first-child{
-    font-size:15px;
-    font-weight:600;
+    font-size:14px;
+    font-weight:500;
     color:#222;
 }
 
