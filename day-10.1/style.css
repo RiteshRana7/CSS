@@ -292,19 +292,31 @@ color:#e58289;
  .today-status > div:nth-child(2) i{
 background:#DCFCE7;
 color:#22C55E;
+<<<<<<< HEAD
 padding: 10px;
+=======
+padding: 6px;
+>>>>>>> 3f48f71c2781a68d92f3a4301d1b11f25b1d926f
 }
 
 .today-status > div:nth-child(3) i{
 background:#DBEAFE;
 color:#3B82F6;
+<<<<<<< HEAD
 padding: 10px;
+=======
+padding: 6px;
+>>>>>>> 3f48f71c2781a68d92f3a4301d1b11f25b1d926f
 }
 
 .today-status > div:nth-child(4) i{
 background:#FEF3C7;
 color:#F59E0B;
+<<<<<<< HEAD
 padding: 10px;
+=======
+padding: 6px;
+>>>>>>> 3f48f71c2781a68d92f3a4301d1b11f25b1d926f
 }
 button{
     background-color: #1371ee;
@@ -377,8 +389,12 @@ color: #ff0000;
     flex:1;
     display:flex;
     align-items:center;
+<<<<<<< HEAD
     gap:25px;
     font-size: 22px;
+=======
+    gap:15px;
+>>>>>>> 3f48f71c2781a68d92f3a4301d1b11f25b1d926f
     padding:10px;
     border-radius:8px;
 }
