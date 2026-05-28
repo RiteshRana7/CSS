@@ -1,0 +1,466 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    height:100vh;
+    width:100%;
+}
+h2{
+    text-align: center;
+}
+/* container-1 */
+.container-1{
+    height:62vh;
+    width: 100%;
+    background-color: #605f64;
+}
+.uapper-propty-1{
+    height:17vh;
+    width:100%;
+    color: white;
+    line-height: 30px;
+    font-size: 18px;
+    padding: 3px 23px;
+}
+.container-box-1{
+    height: 45vh;
+    width:98%;
+    background-color: #f0f133;
+    display: flex;
+    margin-left:15px; 
+    margin-right: 5px;
+    
+}
+.box-1{
+    height: 100px;
+    width: 100px;
+    background-color: antiquewhite;
+    text-align: center;
+    align-content: center;
+}
+/* container-2 */
+.container-2{
+    height:80vh;
+    width: 100%;
+    background-color: #605f64;
+    margin-top: 45px;
+}
+.uapper-propty-2{
+    height:36vh;
+    width:100%;
+    color: white;
+    line-height: 30px;
+    padding: 10px 23px;
+    font-size: 19px;
+}
+.container-box-2{
+    height: 44vh;
+    width:98%;
+    background-color: #f0f133;
+    display: flex;
+    margin-left:15px; 
+    margin-right: 5px;
+    
+}
+.box2{
+    height: 100px;
+    width: 100px;
+    background-color: antiquewhite;
+    text-align: center;
+    align-content: center;
+}
+ol{
+    list-style-type: circle;
+    padding-left: 25px;
+}
+/* container-3 */
+.container-3{
+    height:59vh;
+    width: 100%;
+    background-color: #605f64;
+    margin-top: 45px;
+}
+.uapper-propty-3{
+    height:15vh;
+    width:100%;
+    color: white;
+    line-height: 30px;
+    padding: 10px 23px;
+    font-size: 19px;
+}
+.container-box-3{
+    height: 44vh;
+    width:98%;
+    background-color: #f0f133;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left:15px; 
+    margin-right: 5px;
+    
+}
+.box-3{
+    height: 100px;
+    width: 100px;
+    background-color: antiquewhite;
+    text-align: center;
+    align-content: center;
+}
+/* container-4 */
+.container-4{
+    height:59vh;
+    width: 100%;
+    background-color: #605f64;
+    margin-top: 45px;
+}
+.uapper-propty-4{
+    height:15vh;
+    width:100%;
+    color: white;
+    line-height: 30px;
+    padding: 10px 23px;
+    font-size: 19px;
+}
+.container-box-4{
+    height: 44vh;
+    width:98%;
+    background-color: #f0f133;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    margin-left:15px; 
+    margin-right: 5px;
+    
+}
+.box-4{
+    height: 100px;
+    width: 100px;
+    background-color: antiquewhite;
+    text-align: center;
+    align-content: center;
+}
+/* container-5 */
+.container-5{
+    height:80vh;
+    width: 100%;
+    background-color: #605f64;
+    margin-top: 45px;
+}
+.uapper-propty-5{
+    height:36vh;
+    width:100%;
+    color: white;
+    line-height: 30px;
+    padding: 10px 23px;
+    font-size: 19px;
+}
+.container-box-5{
+    height: 44vh;
+    width:98%;
+    background-color: #f0f133;
+    display: flex;
+    margin-left:15px; 
+    margin-right: 5px;
+    
+}
+.box-5{
+    height: 100px;
+    width: 100px;
+    background-color: antiquewhite;
+    text-align: center;
+    align-content: center;
+}
+ol{
+    list-style-type: circle;
+    padding-left: 25px;
+}
+/* container-6 */
+.container-6{
+    height:59vh;
+    width: 100%;
+    background-color: #605f64;
+    margin-top: 45px;
+}
+.uapper-propty-6{
+    height:15vh;
+    width:100%;
+    color: white;
+    line-height: 30px;
+    padding: 10px 23px;
+    font-size: 19px;
+}
+.container-box-6{
+    height: 44vh;
+    width:98%;
+    background-color: #f0f133;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-left:15px; 
+    margin-right: 5px;
+    
+}
+.box-6{
+    height: 100px;
+    width: 100px;
+    background-color: antiquewhite;
+    text-align: center;
+    align-content: center;
+}
+/* container-7 */
+.container-7{
+    height:29vh;
+    width: 100%;
+    background-color: #605f64;
+    margin-top: 45px;
+}
+.uapper-propty-7{
+    height:15vh;
+    width:100%;
+    color: white;
+    line-height: 30px;
+    padding: 10px 23px;
+    font-size: 19px;
+}
+.container-box-7{
+    height: 14vh;
+    width:98%;
+    background-color: #f0f133;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-left:15px; 
+    margin-right: 5px;
+    
+}
+.box-7{
+    height: 100px;
+    width: 100px;
+    background-color: antiquewhite;
+    text-align: center;
+    align-content: center;
+}
+/* container-8 */
+.container-8{
+    height:59vh;
+    width: 100%;
+    background-color: #605f64;
+    margin-top: 45px;
+}
+.uapper-propty-8{
+    height:15vh;
+    width:100%;
+    color: white;
+    line-height: 30px;
+    padding: 10px 23px;
+    font-size: 19px;
+}
+.container-box-8{
+    height: 44vh;
+    width:98%;
+    background-color: #f0f133;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    margin-left:15px; 
+    margin-right: 5px;
+    
+}
+.box-8{
+    height: 100px;
+    width: 100px;
+    background-color: antiquewhite;
+    text-align: center;
+    align-content: center;
+}
+/* container-9 */
+.container-9{
+    height:90vh;
+    width: 100%;
+    background-color: #605f64;
+    margin-top: 45px;
+}
+.uapper-propty-9{
+    height:50vh;
+    width:100%;
+    color: white;
+    line-height: 30px;
+    padding: 10px 23px;
+    font-size: 19px;
+}
+.container-box-9{
+    height: 40vh;
+    width:98%;
+    background-color: #f0f133;
+    display: flex;
+    margin-left:15px; 
+    margin-right: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.box-9{
+    height: 100px;
+    width: 100px;
+    background-color: antiquewhite;
+    text-align: center;
+    align-content: center;
+}
+/* container-10 */
+.container-10{
+    height:59vh;
+    width: 100%;
+    background-color: #605f64;
+    margin-top: 45px;
+}
+.uapper-propty-10{
+    height:15vh;
+    width:100%;
+    color: white;
+    line-height: 30px;
+    padding: 10px 23px;
+    font-size: 19px;
+}
+.container-box-10{
+    height: 44vh;
+    width:98%;
+    background-color: #f0f133;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    margin-left:15px; 
+    margin-right: 5px;
+    
+}
+.box-10{
+    height: 100px;
+    width: 100px;
+    background-color: antiquewhite;
+    text-align: center;
+    align-content: center;
+}
+/* container-10 */
+.container-11{
+    height:59vh;
+    width: 100%;
+    background-color: #605f64;
+    margin-top: 45px;
+}
+.uapper-propty-11{
+    height:15vh;
+    width:100%;
+    color: white;
+    line-height: 30px;
+    padding: 10px 23px;
+    font-size: 19px;
+}
+.container-box-11{
+    height: 44vh;
+    width:98%;
+    background-color: #f0f133;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left:15px; 
+    margin-right: 5px;
+    
+}
+.box-11{
+    height: 100px;
+    width: 100px;
+    background-color: antiquewhite;
+    text-align: center;
+    align-content: center;
+}
+/* container-12 */
+.container-12{
+    height:59vh;
+    width: 100%;
+    background-color: #605f64;
+    margin-top: 45px;
+}
+.uapper-propty-12{
+    height:15vh;
+    width:100%;
+    color: white;
+    line-height: 30px;
+    padding: 10px 23px;
+    font-size: 19px;
+}
+.container-box-12{
+    height: 44vh;
+    width:98%;
+    background-color: #f0f133;
+    display: flex;
+    flex-flow:column wrap;
+    margin-left:15px; 
+    margin-right: 5px;
+    
+}
+.box-12{
+    height: 100px;
+    width: 100px;
+    background-color: antiquewhite;
+    text-align: center;
+    align-content: center;
+}
+/* container-13 */
+.container-13{
+    height:59vh;
+    width: 100%;
+    background-color: #605f64;
+    margin-top: 45px;
+}
+.uapper-propty-13{
+    height:15vh;
+    width:100%;
+    color: white;
+    line-height: 30px;
+    padding: 10px 23px;
+    font-size: 19px;
+}
+.container-box-13{
+    height: 44vh;
+    width:98%;
+    background-color: #f0f133;
+    display: flex;
+    flex-flow: column;
+    margin-left:15px; 
+    margin-right: 5px;
+    
+}
+.box-13{
+    height: 100px;
+    width: 100px;
+    background-color: antiquewhite;
+    text-align: center;
+    align-content: center;
+}
+/* container-14 */
+.container-14{
+    height:59vh;
+    width: 100%;
+    background-color: #605f64;
+    margin-top: 45px;
+}
+.uapper-propty-14{
+    height:15vh;
+    width:100%;
+    color: white;
+    line-height: 30px;
+    padding: 10px 23px;
+    font-size: 19px;
+}
+.container-box-14{
+    height: 44vh;
+    width:98%;
+    background-color: #f0f133;
+    display: flex;
+    flex-flow: column wrap-reverse;
+    margin-left:15px; 
+    margin-right: 5px;
+    
+}
+.box-14{
+    height: 100px;
+    width: 100px;
+    background-color: antiquewhite;
+    text-align: center;
+    align-content: center;
+}
