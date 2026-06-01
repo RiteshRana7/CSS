@@ -1,0 +1,62 @@
+@font-face {
+    font-family: amazone ember;
+    src: url(./assets/fonts/Amazon\ Ember.ttf) format(truetype);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: amazone ember;
+}
+
+body{
+    height:100vh;
+    width:100%;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    
+}
+.navbar{
+    width:90%;
+    height: 60px;
+    background-color: rgb(1, 1, 32);
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+}
+.navbar a,
+.vartical{
+    text-decoration:none;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+}
+a:hover{
+    background-color: white;
+    color: rgb(1, 1, 32);
+}
+.left-nav img{
+    height: 20px;
+    align-items: center;
+    margin-right: 10px;
+    
+}
+.left-nav {
+    display: flex;
+    align-items: center;
+}
+
+.ri-gallery-view-2{
+    margin-right: 8px;
+}
+.right-nav a:last-child{
+    background-color: #177dd0;
+}
+.right-nav a:last-child:hover{
+    background-color: #2690e6;
+    color: white;
+}
