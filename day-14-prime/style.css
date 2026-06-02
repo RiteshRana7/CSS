@@ -1,62 +1,160 @@
 @font-face {
-    font-family: amazone ember;
-    src: url(./assets/fonts/Amazon\ Ember.ttf) format(truetype);
+  font-family: amazone ember;
+  src: url(./assets/fonts/Amazon\ Ember.ttf) format(truetype);
 }
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: amazone ember;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: amazone ember;
 }
 
-body{
-    height:100vh;
-    width:100%;
+body {
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(1, 1, 32);
 }
-nav{
-    display: flex;
-    justify-content: center;
-    
+nav {
+  display: flex;
+  justify-content: center;
+  position: relative;
 }
-.navbar{
-    width:90%;
-    height: 60px;
-    background-color: rgb(1, 1, 32);
-    border-radius: 0px 0px 10px 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0px 20px;
+.navbar {
+  width: 90%;
+  height: 60px;
+  position: absolute;
+  border-radius: 0px 0px 10px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+  position: fixed;
+    z-index: 100;
+
 }
 .navbar a,
-.vartical{
-    text-decoration:none;
-    color: white;
-    padding: 10px;
-    border-radius: 8px;
+.vartical {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
 }
-a:hover{
-    background-color: white;
-    color: rgb(1, 1, 32);
+a:hover {
+  background-color: white;
+  color: rgb(1, 1, 32);
 }
-.left-nav img{
-    height: 20px;
-    align-items: center;
-    margin-right: 10px;
-    
+.left-nav img {
+  height: 20px;
+  align-items: center;
+  margin-right: 10px;
 }
 .left-nav {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
+}
+.ri-gallery-view-2 {
+  margin-right: 8px;
+}
+.right-nav a:last-child {
+  background-color: #177dd0;
+}
+.right-nav a:last-child:hover {
+  background-color: #3292e0;
+  color: white;
+}
+.rounded-100 {
+  border-radius: 50% !important;
+  padding: 10px 12px !important;
+}
+.hero {
+  height: 80%;
+  padding-top: 60px;
+  background-image: url("https://m.media-amazon.com/images/S/sonata-images-prod/PV_IN_SpiderNoir_S1_ReflectionColour/b7ba971a-3a22-4a38-ac90-a6cbfa68c43c._UR3840,1440_SX2160_FMavif_PQ60_.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-.ri-gallery-view-2{
-    margin-right: 8px;
+.left-section {
+    display: flex;
+     flex-direction: column;
+     justify-content: center;
+     height: 100%;
+     padding: 0px 0px 40px ;
+} 
+
+    
+.Prime-image{
+      height:50px;
+    width: 60px;
+    margin-left: 60px;
 }
-.right-nav a:last-child{
-    background-color: #177dd0;
+.spider-image{
+    display: block;
+    width: 350px;
+     margin-top:  13px;
+     margin-left: 60px;
+    
 }
-.right-nav a:last-child:hover{
-    background-color: #2690e6;
+.text-in-india {
+    color: #2a9a2a;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 60px;
+    margin-top: 24px;
+}
+.seasion{
     color: white;
+    font-weight: 600;
+    margin-left: 60px;
+    margin-top:16px;
+    font-size: 18px;
+}
+.join-prime{
+    height: 60px;
+    width: 150px;
+    border-radius: 8px;
+    background-color: #33363d;
+    border:none;
+    color: white;
+    font-size: 20px;
+    margin-left: 60px;
+    margin-top: 10px;
+    font-weight: 500;
+    margin-right: 10px;
+}
+.join-prime:hover{
+    background-color: white;
+    color: black;
+}
+.add{
+ color: white;
+ font-size:55px;
+
+}
+/* .add:hover{
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+} */
+
+
+.information{
+    color: white;
+    font-size: 55px;
+}
+.watch-with{
+     margin-left: 60px;
+    margin-top: 10px;
+    font-weight: 500;
+    margin-right: 10px;
+    color: white;
+}
+.watch-with svg{
+    width: 22px;
+    height: 22px;
+}
+.ri-shopping-bag-line{
+    color: #ffd62c;
+    margin-right: 5px;
 }
