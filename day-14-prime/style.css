@@ -219,7 +219,7 @@ a:hover {
   transition:0.5s;
 }
 .poster-2:hover{
-  transform: scale(1.30);
+  transform: scale(1.25);
   transition:0.5s;
 }
 .box-of-movies-all{
@@ -227,4 +227,20 @@ a:hover {
   display: flex;
   flex-direction: column;
   
+}
+/* movies box 3 */
+.main-movies-box-3{
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  gap: 30px;
+}
+.poster-3{
+  height: 170px;
+  width: 280px;
+  border-radius: 18px;
+}
+.poster-3:hover{
+  transform: scale(1.30);
+  transition: 0.5s;
 }
