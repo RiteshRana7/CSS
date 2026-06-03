@@ -2,6 +2,7 @@
   font-family: amazone ember;
   src: url(./assets/fonts/Amazon\ Ember.ttf) format(truetype);
 }
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -29,8 +30,8 @@ nav {
   align-items: center;
   padding: 0px 20px;
   position: fixed;
-    z-index: 100;
-
+  background-color: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
 }
 .navbar a,
 .vartical {
@@ -73,6 +74,8 @@ a:hover {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+   display: flex;
+  justify-content: center;
 }
 
 .left-section {
@@ -81,36 +84,40 @@ a:hover {
      justify-content: center;
      height: 100%;
      padding: 0px 0px 40px ;
+     width:40%;
 } 
-
+.hero-grup-box{
+  width:90%;
+  height: 100%;
+}
     
 .Prime-image{
       height:50px;
     width: 60px;
-    margin-left: 60px;
+    /* margin-left: 60px; */
 }
 .spider-image{
     display: block;
     width: 350px;
      margin-top:  13px;
-     margin-left: 60px;
+     /* margin-left: 60px; */
     
 }
 .text-in-india {
     color: #2a9a2a;
     font-size: 20px;
     font-weight: 600;
-    margin-left: 60px;
+    /* margin-left: 60px; */
     margin-top: 24px;
 }
 .seasion{
     color: white;
     font-weight: 600;
-    margin-left: 60px;
+    /* margin-left: 60px; */
     margin-top:16px;
     font-size: 18px;
 }
-.join-prime{
+.join-prime-text{
     height: 60px;
     width: 150px;
     border-radius: 8px;
@@ -118,18 +125,20 @@ a:hover {
     border:none;
     color: white;
     font-size: 20px;
-    margin-left: 60px;
+    /* margin-left: 60px; */
     margin-top: 10px;
     font-weight: 500;
     margin-right: 10px;
 }
-.join-prime:hover{
+.join-prime-text:hover{
     background-color: white;
     color: black;
 }
 .add{
- color: white;
  font-size:55px;
+ color: white;
+ border-radius: 50%;
+
 
 }
 /* .add:hover{
@@ -144,7 +153,7 @@ a:hover {
     font-size: 55px;
 }
 .watch-with{
-     margin-left: 60px;
+     /* margin-left: 60px; */
     margin-top: 10px;
     font-weight: 500;
     margin-right: 10px;
@@ -158,5 +167,32 @@ a:hover {
     color: #ffd62c;
     margin-right: 5px;
 }
+.top-10{
+  color: white;
+}
+.movie-box-1{
+  color: white;
+  height:200px;
+  width: 600px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.number-1{
+  height: 70px;
+  width: 70px;
 
 
+}
+.poster-1{
+  height: 170px;
+  width: 300px;
+  position: absolute;
+  left: 60px;
+  border-radius: 6px;
+  box-shadow:rgb(50px, 50px, 60px);
+}
+.main-box-movies{
+  display: flex;
+  flex-direction: row;
+}
