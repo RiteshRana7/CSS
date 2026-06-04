@@ -32,6 +32,7 @@ nav {
   position: fixed;
   background-color: rgba(0, 0, 0, 0.2);
   backdrop-filter: blur(10px);
+  z-index: 900;
 }
 .navbar a,
 .vartical {
@@ -210,8 +211,11 @@ a:hover {
 .poster-2{
   height: 170px;
   width: 280px;
-  border-radius: 10px !important;
+  margin-top: 10px;
 
+}
+.poster-2 img{
+  border-radius: 8px;
 }
 /* animation */
 .poster-1:hover{
@@ -226,6 +230,7 @@ a:hover {
   width:98%;
   display: flex;
   flex-direction: column;
+  /* margin-left: 20px; */
   
 }
 /* movies box 3 */
@@ -238,7 +243,10 @@ a:hover {
 .poster-3{
   height: 170px;
   width: 280px;
-  border-radius: 18px;
+   margin-top: 20px;
+}
+.poster-3 img{
+  border-radius: 8px;
 }
 .poster-3:hover{
   transform: scale(1.30);
