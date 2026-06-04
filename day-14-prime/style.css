@@ -252,3 +252,43 @@ a:hover {
   transform: scale(1.30);
   transition: 0.5s;
 }
+/* En Upar-down */
+.right-nav{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.language-box{
+  position: absolute;
+  Height: 420px;
+  font-weight: 600;
+  width: 600px;
+  top: 55px;
+    opacity: 0;
+  right: 0;
+  background-color: rgb(43, 42, 42);
+  color: white;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  align-items: center;
+  justify-items:center;
+  border-radius: 8px;
+  visibility: hidden;
+  
+}
+.language-dropdown{
+  position: relative;
+}
+.language-box span{
+  padding: 8px 15px;
+  border-radius: 6px;
+
+}
+.language-box span:hover{
+  background-color: white;
+  color: rgb(0, 0, 9);
+}
+.language-dropdown:hover .language-box{
+  visibility:visible;
+  opacity: 1;
+}
