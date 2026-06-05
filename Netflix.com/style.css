@@ -1,0 +1,149 @@
+@font-face {
+    font-family: Amazone-ember;
+    src: url(./assets/image/Amazon\ Ember.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+}
+section{
+    height: 100%;
+    width: 100%;
+    background-image: url("./assets/image/background-image.jpg");
+}
+.section-background-blur{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7); 
+    box-shadow: 50px 30px 40px 90px black;
+
+}
+nav{
+    height: 86px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.navbar{
+    width: 83%;
+    height: 80px;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    justify-content: space-between;
+}
+/* left-nav */
+.left-nav img{
+    height: 44px;
+    width: 160px;
+}
+.language{
+    height: 33px;
+    width: 85px;
+    border-radius: 4px;
+    border: 1px solid black;
+    margin-right: 15px;
+}
+.sing-in{
+
+    height: 35px;
+    width: 70px;
+    background-color: #e50914;
+    color:white;
+    font-size: 15px;
+    border: none;
+    border-radius: 6px;
+}
+/* unlimited-text */
+.unlimited-text{
+    display: flex;
+    align-items: center;
+   height:100%;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   color: white;
+   font-family: Amazone-ember;
+}
+.unlimited-text h1{
+    text-align: center;
+    /* color: white; */
+    font-size: 3.7em;
+    font-weight: 600;
+}
+.unlimited-text-p1{
+    font-size: 22px;
+    margin-top: 8px;
+    font-weight: 600;
+}
+.unlimited-text-p2{
+     font-size: 18px;
+    margin-top: 30px;
+}
+.input-email{
+    height: 56px;
+    width: 319px;
+    background-color: #131515;
+    color:white;
+    border: 0.5px solid white;
+    border-radius: 4px;
+    padding: 0px 10px;
+    margin-top: 15px;
+    
+}
+.get-start{
+    height: 56px;
+    width: 180px;
+    background-color:#e50914;
+    color: white;
+    border-radius: 6px;
+    text-align: start;
+    font-size: px;
+    border: none;
+    padding-left: 18px;
+    font-size: 18px;
+    margin-left: 10px;
+
+}
+
+.curve{
+    height: 100px;
+    width: 89%;
+     background :#000;
+    border-top:4px solid #e50914;
+    border-radius: 100% ; 
+    margin-top: 200px;
+
+}
+.movies-section{
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+}
+.movies-box{
+    display: flex;
+    width:90%;
+    
+}
+.movies-box img {
+    height: 300px;
+    width: 250px;
+    border-radius: 8px;
+    margin-left: 10px;
+}
+.tranding-now-text{
+    width: 20%;
+    margin-bottom: 30px;
+    color: white;
+}
+.trand-name-div{
+    width: 100%;
+    text-align: start;
+}

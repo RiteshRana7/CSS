@@ -199,6 +199,8 @@ a:hover {
 .main-box-movies{
   display: flex;
   flex-direction: row;
+  overflow-x: scroll;
+  scrollbar-width: none;
 }
 
 .main-movies-box-2{
@@ -206,6 +208,8 @@ a:hover {
   flex-direction: row;
   padding: 10px;
   gap: 30px;
+   overflow-x: scroll;
+  scrollbar-width: none;
 
 }
 .poster-2{
@@ -239,6 +243,8 @@ a:hover {
   flex-direction: row;
   padding: 10px;
   gap: 30px;
+   overflow-x: scroll;
+  scrollbar-width: none;
 }
 .poster-3{
   height: 170px;
@@ -292,3 +298,5 @@ a:hover {
   visibility:visible;
   opacity: 1;
 }
+/* .box-of-movies-all{ */
+  /* overflow: scroll; */
