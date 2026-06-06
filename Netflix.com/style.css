@@ -186,7 +186,7 @@ text-align: start;
 .number-5 img
 {
     position: absolute;
-    right: 190px;
+    right: 170px;
     height: 80px;
     width: 80px;
 }
@@ -263,7 +263,8 @@ text-align: start;
 }
 .input-box{
     height: 58px;
-    width: 580px;
+    width:100%;
+    max-width: 580px;
     background-color: #2d2d2d;
     color: white;
     border-radius: 4px;
