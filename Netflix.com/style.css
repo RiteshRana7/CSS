@@ -119,13 +119,11 @@ nav{
     font-size: 18px;
     margin-left: 10px;
     margin-top: 13px;
-
 }
 .get-start:hover{
     background-color: #bd050e;
     color: white;
 }
-
 .curve{
     height: 100px;
     width: 89%;
@@ -133,8 +131,7 @@ nav{
     border-top:4px solid #e50914;
     border-radius: 100% ; 
     margin-top: 100px;
-    /* padding-top: 100px; */
-
+    
 }
 .trand-name-div-box{
     display: flex;
@@ -142,14 +139,12 @@ nav{
 }
 .trand-name-div{
     width: 87%;
-
 }
 .movies-section{
     display: flex;
     justify-content: center;
     background-color: #000;
         box-shadow: 50px 30px 40px 90px black;
-
 }
 .movies-box{
     display: flex;
@@ -170,7 +165,6 @@ text-align: start;
 .trand-name-div{
     width: 90%;
     text-align: start;
-
 }
 .movies-1, 
 .movies-2, .movies-3,
