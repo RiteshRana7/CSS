@@ -16,6 +16,7 @@ section{
     height: 100%;
     width: 100%;
     background-image: url("./assets/image/background-image.jpg");
+    box-shadow: inset 0 0 30px rgba(0, 0, 0, 0.8);
 }
 .section-background-blur{
     height: 100%;
@@ -109,16 +110,13 @@ nav{
 .get-start{
     height: 55px;
     width: 200px;
-    background-color:#e50914;
+    background-color: #e50914;
     color: white;
     border-radius: 6px;
-    text-align: start;
-    font-size: px;
+    padding: 0px 2px;
+    font-size: 24px;
     border: none;
-    padding-left: 18px;
-    font-size: 18px;
-    margin-left: 10px;
-    margin-top: 13px;
+    margin-top: 15px;
 }
 .get-start:hover{
     background-color: #bd050e;
@@ -207,7 +205,43 @@ text-align: start;
     padding: 15px 25px;
     border-radius: 10px;
     width: 325px;
-    background-color: #1f1425;
+    background: linear-gradient(
+    135deg,
+    #1A2145 0%,
+    #1D1A38 45%,
+    #1F1527 75%,
+    #210E17 100%
+);
+position: relative;
+}
+.pc-image img{
+    position:absolute;
+    height: 80px;
+    width: 130px;
+    right: 11px;
+    bottom: 20px;
+
+}
+.down-image img{
+    position: absolute;
+    height: 90px;
+    width: 80px;
+    right: 25px;
+    bottom: 7px;
+}
+.pp-image img{
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    right: 25px;
+    bottom: 15px;
+}
+.face-image img {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    right: 20px;
+    bottom: 10px;
 }
 .box-1 h1{
     font-size: 24px;
@@ -340,3 +374,8 @@ height: 15%;
     font-size: 15px;
     color: rgb(164, 158, 158);
 }
+/* side arrow */
+.arrow{
+    height: 50px;
+}
+
