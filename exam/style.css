@@ -229,3 +229,13 @@ hr{
 .div-box{
     display: flex;
 }
+.footer{
+    margin-top: 20px;
+    margin: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer p{
+    line-height: 30px;
+    color: rgb(131, 126, 126);
+}
