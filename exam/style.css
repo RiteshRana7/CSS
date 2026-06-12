@@ -1,11 +1,36 @@
+@font-face {
+    font-family: amazone;
+    src: url(./Amazon\ Ember.ttf) format(truetype);
+}
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* font-family: amazone; */
+    font-family: Arial, Helvetica, sans-serif;
 }
 body{
     height: 100vh;
     width: 100%;
+}
+.relative{
+    position: relative;
+}
+.ri-search-line{
+    position: absolute;
+    right: 170px;
+    margin-top: 10px;
+    color: rgb(112, 105, 105);
+}
+.ri-map-pin-2-line{
+    position: absolute;
+    margin-top: 10px;
+    right: 10px;
+    color: rgb(112, 105, 105);
+}
+.ri-shopping-cart-2-line{
+    font-weight: normal;
+    margin-right: 7px;
 }
 nav{
     height: 45px;
@@ -16,10 +41,11 @@ nav{
 .main{
     display: flex;
     justify-content: space-between;
-    /* background-color: aqua; */
     padding: 10px 30px;
     gap:70px;
     font-size: 20px;
+    /* position: sticky;
+    top:0; */
 }
 .search-bar{
     height: 40px;
@@ -38,7 +64,8 @@ nav{
 }
 /* header */
 header{
-    height: 50px;   
+    height: 50px;  
+    /* position: sticky;  */
 }
 .header-nav{
     display: flex;
@@ -52,9 +79,10 @@ header{
 }
 .first-header{
     background-color: green;
-    color: white;
+    color: white !important;
     padding: 10px 15px;
     border-radius: 7px;
+
 }
 .header-nav a{
     text-decoration: none;
@@ -63,7 +91,7 @@ header{
     border-radius: 8px;
 }
 .header-nav a:hover{
-    background-color: rgb(50, 50, 212);
+    background-color: rgb(25, 25, 208);
     color: white;
 }
 .ri-gallery-view-2{
@@ -94,12 +122,11 @@ header{
 }
 .feature-categories{
     display: flex;
-    justify-content: start;
-    height;
+    justify-content: center;
 }
 .text-feture{
     height: 30px;
-    width: 20%;
+    width: 97%;
     font-size: 25px;
     margin-top: 20px;
 }
