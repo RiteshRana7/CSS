@@ -62,16 +62,13 @@ nav{
 .icon-nav{
     gap:30px;
 }
-/* header */
 header{
     height: 50px;  
-    /* position: sticky;  */
 }
 .header-nav{
     display: flex;
     align-items: center;
     width: 90%;
-    /* background-color: aqua; */
     gap: 15px;
     padding: 0px 30px;
     font-size: 18px;
