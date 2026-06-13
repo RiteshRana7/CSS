@@ -12,7 +12,7 @@ body{
 .relative{
     position: relative;
 }
-.ri-search-line{
+.ri-search-line{    
     position: absolute;
     right: 170px;
     margin-top: 10px;
