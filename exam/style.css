@@ -236,7 +236,6 @@ hr{
     padding: 10px 15px;
     height: 150px;
     width: 350px;
-    /* border: 1px solid black; */
 }
 .ri-time-line, .ri-gift-line, .ri-archive-line, .ri-loop-left-line{
     color: rgba(0, 128, 0, 0.726);
