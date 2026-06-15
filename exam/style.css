@@ -29,7 +29,7 @@ body{
     margin-right: 7px; 
 }
 nav{
-    height: 45px;
+    height: 45px; 
     width: 100%;
     display: flex;    
     justify-content: space-between;
