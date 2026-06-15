@@ -20,7 +20,7 @@ body{
 }
 .ri-map-pin-2-line{
     position: absolute;
-    margin-top: 10px;
+    margin-top: 10px; 
     right: 10px;
     color: rgb(112, 105, 105);
 }
