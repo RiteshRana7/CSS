@@ -124,7 +124,7 @@ ol{
 }
 .container-box-4{
     height: 44vh;
-    width:98%;
+    width:98%; 
     background-color: #f0f133;
     display: flex;
     flex-wrap: wrap-reverse;
