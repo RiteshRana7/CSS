@@ -34,7 +34,7 @@ nav{
     display: flex;    
     justify-content: space-between;
 }
-.main{
+.main{ 
     display: flex;
     justify-content: space-between;
     padding: 10px 30px;
