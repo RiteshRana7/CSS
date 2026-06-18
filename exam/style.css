@@ -66,7 +66,7 @@ header{
     gap: 15px;
     padding: 0px 30px;
     font-size: 18px;
-    position: relative;
+    position: relative; 
 }
 .first-header{
     background-color: green;
