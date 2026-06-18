@@ -72,7 +72,7 @@ header{
     background-color: green;
     color: white !important;
     padding: 10px 15px;
-    border-radius: 7px;
+    border-radius: 7px; 
 
 }
 .header-nav a{
