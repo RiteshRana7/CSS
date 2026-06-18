@@ -58,7 +58,7 @@ nav{
 }
 header{
     height: 50px;  
-}
+} 
 .header-nav{
     display: flex;
     align-items: center;
