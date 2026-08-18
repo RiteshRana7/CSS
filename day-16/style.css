@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.icon{
+    width: 200px;
+    height: 50px;
+    /* background-color: aquamarine; */
+    /* justify-content:space-between; */
+    gap: 100px;
+ }
+ h1{
+    text-align: center;
+ }
+ .ri-align-justify{
+    margin-left: 20px;
+       font-size: 25px;
+color: green;
+ }
+ .ri-gallery-view-2{
+    margin-left: 20px;
+    font-size: 25px;
+color: green;
+ }
+ .ri-home-3-line{
+    height: 50px;
+        font-size: 25px;
+color: green;
+margin-bottom: 65px;
+ }
