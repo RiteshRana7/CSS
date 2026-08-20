@@ -19,3 +19,8 @@ div{
     margin: 10px 4px;
 
 }
+.liner-g{
+    height: 40px;
+    width: 120px;
+    background: linear-gradient(to top,red,white, blue );
+}
