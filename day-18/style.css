@@ -1,0 +1,13 @@
+a{
+    background-color: aqua;
+}
+p{
+    background-color: aqua;
+    
+}
+div{
+    background-color: chartreuse;
+    display: inline-block;
+    height: 40px;
+    width: 700px;
+}
