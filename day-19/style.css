@@ -27,3 +27,6 @@
     border-radius: 8px;
     background-color: rgb(40, 45, 43);   
 }
+ul::before{
+    content:"abc"
+}
