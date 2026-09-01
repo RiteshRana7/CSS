@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.task{
+    height: 400px;
+    width: 100%;
+    background-color: cadetblue;
+}
+h2,p{
+    text-align: center;
+}
+.practial{
+    background-color: yellow;
+    height: 300px;
+    margin: 20px 0px;
+    padding: 10px 20px;
+    width: 100%;
+    display: flex;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+    margin: 10px;
+    border-radius: 8px;
+}
