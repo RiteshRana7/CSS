@@ -240,3 +240,63 @@ p{
      overflow: visible;
 }
 
+/* Language */
+
+.language{
+    position: relative;
+    display: inline-block;
+    color: white;
+}
+
+.language-btn{
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 16px;
+    white-space: nowrap;
+}
+
+.language-box{
+    position: absolute;
+    top: 42px;
+    right: -150px;
+
+    width: 500px;
+    padding: 20px;
+
+    background-color: #19212a;
+    border-radius: 10px;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px 22px;
+
+    box-shadow: 0 8px 25px rgba(0,0,0,0.5);
+
+    opacity: 0;
+    visibility: hidden;
+
+    transition: 0.2s ease;
+
+    z-index: 999;
+}
+
+.language-box span{
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    white-space: nowrap;
+    cursor: pointer;
+    padding: 10px 10px;
+    border-radius: 8px;
+}
+
+.language-box span:hover{
+    background-color: white;
+    color: #19212a;
+}
+
+.language:hover .language-box{
+    opacity: 1;
+    visibility: visible;
+}
