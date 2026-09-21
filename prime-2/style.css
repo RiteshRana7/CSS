@@ -287,6 +287,8 @@ p{
     font-weight: 600;
     white-space: nowrap;
     cursor: pointer;
+
+    
     padding: 10px 10px;
     border-radius: 8px;
 }
