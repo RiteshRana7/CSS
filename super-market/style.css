@@ -15,10 +15,6 @@ body {
     max-width: 1100px;
     margin: auto;
 }
-
-
-/* BANNER */
-
 .banner {
     height: 145px;
     background-color: #edf3f1;
@@ -41,7 +37,6 @@ body {
     color: #718b98;
     margin-top: 4px;
 }
-
 .search {
     width: 270px;
     height: 35px;
@@ -49,261 +44,157 @@ body {
     background-color: white;
     border: 1px solid #ddd;
     border-radius: 4px;
-
     display: flex;
     align-items: center;
-
     margin-top: 13px;
 }
-
 .search input {
     width: 235px;
     height: 100%;
-
     border: none;
     outline: none;
-
     padding-left: 12px;
     font-size: 11px;
 }
-
 .search span {
     font-size: 20px;
     color: #777;
 }
-
 .banner-right img {
     height: 110px;
     width: 190px;
 }
-
-
-/* TOP BAR */
-
 .top-bar {
     height: 75px;
-
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-
 .top-bar p {
     font-size: 12px;
     color: #607784;
 }
-
 .top-bar p b {
     color: #28739a;
 }
-
 .filters {
     display: flex;
     gap: 7px;
 }
-
 .filters select {
     height: 35px;
-
     border: 1px solid #ddd;
     border-radius: 5px;
-
     background-color: white;
-
     padding: 0 28px 0 12px;
-
     color: #555;
 }
-
-
-/* PRODUCTS */
-
 .products {
     display: grid;
-
     grid-template-columns: repeat(4, 1fr);
-
     gap: 12px;
 }
-
-
-/* CARD */
-
 .card {
     height: 270px;
-
     border: 1px solid #ddd;
     border-radius: 6px;
-
     padding: 12px;
-
     position: relative;
-
     background-color: white;
 }
-
-
-/* BADGES */
-
 .badges {
     position: absolute;
-
     top: 12px;
     left: 12px;
-
     display: flex;
     flex-direction: column;
-
     align-items: flex-start;
-
     gap: 3px;
-
     z-index: 2;
 }
-
 .badges span {
     color: white;
-
     padding: 3px 6px;
-
     border-radius: 2px;
-
     font-size: 9px;
     font-weight: bold;
-
     line-height: 12px;
 }
-
 .sale {
     background-color: #e52b36;
 }
-
 .discount {
     background-color: #087b4e;
 }
-
-
-/* SINGLE DISCOUNT */
-
 .discount.single {
     padding: 3px 6px;
 }
-
-
-/* OFFER */
-
 .offer {
     position: absolute;
-
     top: 12px;
     left: 12px;
-
     background-color: #e52b36;
-
     color: white;
-
     padding: 3px 6px;
-
     border-radius: 2px;
-
     font-size: 9px;
     font-weight: bold;
-
     z-index: 2;
 }
-
-
-/* IMAGE */
-
 .product-img {
     height: 150px;
-
-    display: flex;
+   display: flex;
     align-items: center;
     justify-content: center;
 }
-
 .product-img img {
     width: 130px;
     height: 130px;
-
     object-fit: contain;
 }
-
-
-/* TEXT */
-
 .category {
     font-size: 10px;
     color: #87939a;
-
     margin-top: 5px;
 }
-
 .card h3 {
     font-size: 12px;
-
     color: #34495e;
-
     margin-top: 5px;
 }
-
-
-/* RATING */
-
 .rating {
     color: #ffb800;
-
     font-size: 12px;
-
     margin-top: 9px;
 }
-
 .rating span {
     color: #777;
-
     font-size: 10px;
 }
-
-
-/* PRICE */
-
 .price {
     display: flex;
-
     align-items: center;
     justify-content: space-between;
-
     margin-top: 10px;
 }
-
 .price b {
     color: #34495e;
     font-size: 12px;
 }
-
 .price del {
     color: #999;
     font-size: 10px;
-
     margin-left: 4px;
 }
-
 .price button {
     border: none;
-
     background-color: #08b52e;
     color: white;
-
     padding: 7px 11px;
-
     border-radius: 4px;
-
     font-size: 11px;
-
     cursor: pointer;
 }
-
 .price button:hover {
     background-color: #079526;
 }
