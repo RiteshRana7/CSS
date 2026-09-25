@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Fabric Textile</title>
+
+    <link
+        href="https://cdn.jsdelivr.net/npm/remixicon@4.6.0/fonts/remixicon.css"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header class="navbar">
+
+        <div class="logo">
+            <i class="ri-shirt-line"></i>
+
+            <div>
+                <b>FABRIC</b>
+                <small>TEXTILE</small>
+            </div>
+        </div>
+
+        <nav>
+            <a href="#">HOME</a>
+            <a href="#">ABOUT</a>
+            <a href="#">SERVICES</a>
+            <a href="#">PORTFOLIO</a>
+            <a href="#">BLOG</a>
+            <a href="#">CONTACT</a>
+        </nav>
+
+        <div class="nav-right">
+
+            <i class="ri-search-line search-icon"></i>
+
+            <button class="quote-btn">
+                FREE QUOTE
+            </button>
+
+        </div>
+
+    </header>
+
+
+    <!-- ================= HERO ================= -->
+
+    <section class="hero">
+
+        <div class="arrow-box">
+            <button>‹</button>
+            <button>›</button>
+        </div>
+
+        <div class="hero-content">
+
+            <p>WE ARE TEXTILE EXPERTS</p>
+
+            <h1>
+                The Textile Collection for<br>
+                the Classy
+            </h1>
+
+            <div class="hero-buttons">
+
+                <button>
+                    LEARN MORE
+                </button>
+
+                <button class="contact-btn">
+                    CONTACT US
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= ABOUT ================= -->
+
+    <section class="about">
+
+        <div class="about-images">
+
+            <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHjT4IFOk2l5EC82aIXfswqWsuvRcf853kw2Uw1m2Dbg&s=10"
+                class="about-main"
+            >
+
+            <img
+                src="data:image/jpeg;base64,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"
+                class="about-small"
+            >
+
+            <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2Md_HesLHisWXd5T7ui-zlXyp5t3nsG05w-IeqDl1uw&s=10"
+                class="about-small-two"
+            >
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2Md_HesLHisWXd5T7ui-zlXyp5t3nsG05w-IeqDl1uw&s=10"
+                class="about-small-three"
+            >
+
+        </div>
+
+
+        <div class="about-content">
+
+            <p class="section-title">
+                ABOUT US
+            </p>
+
+            <h2>
+                Construct Something<br>
+                Innovative Together
+            </h2>
+
+            <p class="about-para">
+                We are a modern textile manufacturing company that provides
+                high quality fabrics and innovative textile solutions.
+            </p>
+
+            <p class="about-para">
+                Our experienced team works together to create beautiful,
+                comfortable and durable products for our customers.
+            </p>
+
+
+            <div class="about-info">
+
+                <div class="experience">
+                    <h3>58</h3>
+                    <span>Years Experience</span>
+                </div>
+
+                <ul>
+                    <li>Production Efficiency</li>
+                    <li>Professional Quality</li>
+                    <li>Guaranteed Service</li>
+                </ul>
+
+            </div>
+
+            <button class="pink-btn">
+                READ MORE
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= SERVICES ================= -->
+
+    <section class="services">
+
+        <p class="section-title">
+            OUR SERVICES
+        </p>
+
+        <h2>
+            We Provide Best Services
+        </h2>
+
+
+        <div class="service-container">
+
+
+            <div class="service-card">
+
+                <i class="ri-shirt-line"></i>
+
+                <h3>
+                    Fabric Dyeing
+                </h3>
+
+                <p>
+                    High quality fabric dyeing with modern technology
+                    and professional finishing.
+                </p>
+
+                <a href="#">
+                    Read More →
+                </a>
+
+            </div>
+
+
+            <div class="service-card">
+
+                <i class="ri-t-shirt-line"></i>
+
+                <h3>
+                    Stitch Fabric
+                </h3>
+
+                <p>
+                    Premium stitched fabrics made with quality
+                    materials and excellent finishing.
+                </p>
+
+                <a href="#">
+                    Read More →
+                </a>
+
+            </div>
+
+
+            <div class="service-card active">
+
+                <i class="ri-stack-line"></i>
+
+                <h3>
+                    Synthetic Wool
+                </h3>
+
+                <p>
+                    Comfortable and durable synthetic wool products
+                    for different applications.
+                </p>
+
+                <a href="#">
+                    Read More →
+                </a>
+
+            </div>
+
+
+            <div class="service-card">
+
+                <i class="ri-palette-line"></i>
+
+                <h3>
+                    Cotton Velvet
+                </h3>
+
+                <p>
+                    Soft and elegant cotton velvet with excellent
+                    quality and attractive texture.
+                </p>
+
+                <a href="#">
+                    Read More →
+                </a>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= PRICING ================= -->
+
+    <section class="pricing">
+
+        <p class="section-title">
+            PROFESSIONAL PRICING
+        </p>
+
+        <h2>
+            Professional Pricing
+        </h2>
+
+
+        <div class="pricing-container">
+
+
+            <div class="price-card">
+
+                <p class="fabric-name">
+                    POLYESTER FABRIC
+                </p>
+
+                <h3>
+                    $59.99
+                </h3>
+
+                <span>
+                    High Quality Products
+                </span>
+
+                <ul>
+                    <li>Premium Quality</li>
+                    <li>Modern Technology</li>
+                    <li>Professional Service</li>
+                    <li>Quality Materials</li>
+                </ul>
+
+                <button>
+                    PRICING PLAN
+                </button>
+
+            </div>
+
+
+            <div class="price-card popular">
+
+                <p class="fabric-name">
+                    MATERIAL FABRIC
+                </p>
+
+                <h3>
+                    $199.99
+                </h3>
+
+                <span>
+                    The Complete Textile
+                </span>
+
+                <ul>
+                    <li>Premium Quality</li>
+                    <li>Professional Service</li>
+                    <li>Modern Technology</li>
+                    <li>24/7 Customer Support</li>
+                    <li>Quality Materials</li>
+                </ul>
+
+                <button>
+                    PRICING PLAN
+                </button>
+
+            </div>
+
+
+            <div class="price-card">
+
+                <p class="fabric-name">
+                    COTTON FABRIC
+                </p>
+
+                <h3>
+                    $99.99
+                </h3>
+
+                <span>
+                    High Quality Products
+                </span>
+
+                <ul>
+                    <li>Premium Quality</li>
+                    <li>Modern Technology</li>
+                    <li>Professional Service</li>
+                    <li>Quality Materials</li>
+                </ul>
+
+                <button>
+                    PRICING PLAN
+                </button>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <div class="footer-column footer-about">
+
+            <div class="footer-logo">
+
+                <i class="ri-shirt-line"></i>
+
+                <div>
+                    <b>FABRIC</b>
+                    <small>TEXTILE</small>
+                </div>
+
+            </div>
+
+            <p>
+                We provide high quality textile products with
+                modern technology and professional service.
+            </p>
+
+            <p>
+                Our company focuses on quality, innovation and
+                customer satisfaction.
+            </p>
+
+            <div class="social-icons">
+
+                <i class="ri-facebook-fill"></i>
+                <i class="ri-twitter-x-fill"></i>
+                <i class="ri-instagram-line"></i>
+                <i class="ri-linkedin-fill"></i>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h3>
+                QUICK LINKS
+            </h3>
+
+            <a href="#">Home</a>
+            <a href="#">About Us</a>
+            <a href="#">Services</a>
+            <a href="#">Portfolio</a>
+            <a href="#">Blog</a>
+            <a href="#">Contact</a>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h3>
+                CONTACT US
+            </h3>
+
+            <p>
+                <i class="ri-map-pin-line"></i>
+                Ahmedabad, Gujarat, India
+            </p>
+
+            <p>
+                <i class="ri-phone-line"></i>
+                +91 98765 43210
+            </p>
+
+            <p>
+                <i class="ri-mail-line"></i>
+                info@fabrictextile.com
+            </p>
+
+            <p>
+                <i class="ri-time-line"></i>
+                Mon - Sat : 9:00 AM - 6:00 PM
+            </p>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h3>
+                GALLERY
+            </h3>
+
+            <div class="gallery">
+
+                <img src="images/g1.jpg">
+                <img src="images/g2.jpg">
+                <img src="images/g3.jpg">
+                <img src="images/g4.jpg">
+                <img src="images/g5.jpg">
+                <img src="images/g6.jpg">
+
+            </div>
+
+        </div>
+
+
+        <div class="copyright">
+
+            © 2026 Fabric Textile. All Rights Reserved.
+
+        </div>
+
+    </footer>
+
+</body>
+</html>
