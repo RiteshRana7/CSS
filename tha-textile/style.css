@@ -290,7 +290,11 @@ body {
     bottom: 5px;
     z-index: 1;
 }
-
+.about-small-three{
+    height: 80px;
+    width: 80px;
+    background-color: #111;
+}
 
 .about-content {
     width: 48%;
