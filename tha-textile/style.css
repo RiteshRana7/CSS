@@ -746,3 +746,10 @@ footer {
 
     font-size: 9px;
 }
+.range{
+    color: pink;
+    height: 2px;
+}
+.footer-column{
+    margin: 0 !important
+}
